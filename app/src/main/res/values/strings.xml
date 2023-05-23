@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">gacha</string>
+    <string name="v_slogan">NO GACHA NO LIFE</string>
+    <string name="v_jatah">Jatah Berapa Orang?</string>
+    <string name="v_jaka">Jaka</string>
+    <string name="v_key">Key</string>
+    <string name="v_sam">Samsul</string>
+    <string name="v_jae">Jae</string>
+    <string name="v_cikal">Cikal</string>
+    <string name="v_fatma">Fatma</string>
+    <string name="v_rizal">Rizal</string>
+    <string name="v_aji">Aji</string>
+    <string name="v_sativa">Sativa</string>
+    <string name="v_arief">Areef</string>
+    <string name="v_panji">Panji</string>
+    <string name="v_debo">Debora</string>
+    <string name="v_bagas">Bagas</string>
+    <string name="v_ajiDipo">AjiDipo</string>
+    <string name="v_rei">Rei</string>
+    <string name="v_azis">Azis</string>
+    <string name="v_ex">Exclude</string>
+    <string name="v_roll">Roll</string>
+    <string name="v_reset">Reset</string>
+
+
+</resources>

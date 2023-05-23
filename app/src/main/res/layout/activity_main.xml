@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/H_jakha"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/v_jaka"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/H_kei"
+        app:layout_constraintTop_toBottomOf="@+id/H_samsul" />
+
+    <CheckBox
+        android:id="@+id/H_samsul"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/v_sam"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/H_debo"
+        app:layout_constraintTop_toBottomOf="@+id/H_azis" />
+
+    <CheckBox
+        android:id="@+id/H_Jae"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/v_jae"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/H_ray"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/H_bagas"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <CheckBox
+        android:id="@+id/H_kei"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/v_key"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/H_jakha"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/H_cikal"
+        app:layout_constraintTop_toBottomOf="@+id/H_debo" />
+
+    <CheckBox
+        android:id="@+id/H_cikal"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/v_cikal"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/H_kei"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/H_rizal"
+        app:layout_constraintTop_toBottomOf="@+id/H_fatma" />
+
+    <CheckBox
+        android:id="@+id/H_fatma"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/v_fatma"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/H_debo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/H_sativa"
+        app:layout_constraintTop_toBottomOf="@+id/H_panji" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="@string/v_slogan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="133dp">
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <EditText
+        android:id="@+id/jumlah_peloot"
+        android:layout_width="92dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="32dp"
+
+        android:text="@string/v_jatah"
+        app:layout_constraintEnd_toStartOf="@+id/jumlah_peloot"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <CheckBox
+        android:id="@+id/H_rizal"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/v_rizal"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/H_cikal"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/H_sativa" />
+
+    <CheckBox
+        android:id="@+id/H_aji"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/v_aji"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/H_panji"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/H_arief" />
+
+    <CheckBox
+        android:id="@+id/H_sativa"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/v_sativa"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/H_fatma"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/H_aji" />
+
+    <CheckBox
+        android:id="@+id/H_arief"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/v_arief"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/H_bagas"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <CheckBox
+        android:id="@+id/H_panji"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/v_panji"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/H_dipo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/H_aji"
+        app:layout_constraintTop_toBottomOf="@+id/H_bagas" />
+
+    <CheckBox
+        android:id="@+id/H_bagas"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/v_bagas"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/H_Jae"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/H_arief"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <CheckBox
+        android:id="@+id/H_debo"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/v_debo"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/H_samsul"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/H_fatma"
+        app:layout_constraintTop_toBottomOf="@+id/H_dipo" />
+
+    <CheckBox
+        android:id="@+id/H_dipo"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/v_ajiDipo"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/H_azis"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/H_panji"
+        app:layout_constraintTop_toBottomOf="@+id/H_Jae" />
+
+    <CheckBox
+        android:id="@+id/H_ray"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/v_rei"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/H_Jae"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <CheckBox
+        android:id="@+id/H_azis"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/v_azis"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/H_dipo"
+        app:layout_constraintTop_toBottomOf="@+id/H_ray" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/v_ex"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jumlah_peloot" />
+
+    <Button
+        android:id="@+id/butt_roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/v_roll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/H_kei"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/H_kei" />
+
+    <Button
+        android:id="@+id/butt_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/v_reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/butt_roll"
+        app:layout_constraintTop_toBottomOf="@+id/H_kei" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
